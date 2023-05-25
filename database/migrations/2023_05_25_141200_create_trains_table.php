@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('Azienda', 100);
             $table->string('departure_station', 255);
             $table->string('arrival_station', 255);
-            $table->string('arrival_hour', 5);
-            $table->string('departure_hour', 5);
+            $table->string('arrival_hour');
+            $table->string('departure_hour');
             $table->smallinteger('code_train');
             $table->smallInteger('number_cab');
             $table->boolean('train_delay')->default(false);
