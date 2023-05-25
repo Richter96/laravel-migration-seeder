@@ -19,11 +19,9 @@
 
 
     @include('partials.header')
-    <main class="bg-light">
-        <div class="container">
-            @yield('content')
+    <main class="bg-dark">
+        @yield('content')
 
-        </div>
     </main>
 
     @include('partials.footer')

@@ -2,5 +2,8 @@
 
 
 @section('content')
-    main
+    <div class="container text-white ">
+        <h1>I LOVE TRAINS</h1>
+
+    </div>
 @endsection
