@@ -2,5 +2,7 @@
 
 
 @section('content')
-    contacts
+    <div class="container">
+        <h1>CONTACTS</h1>
+    </div>
 @endsection
