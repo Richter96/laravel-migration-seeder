@@ -15,6 +15,11 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4>{{ $train->Azienda }}</h4>
+                                <ul class="list-group list-un">
+                                    <li class="list-group-item active">Active item</li>
+                                    <li class="list-group-item">Item</li>
+                                    <li class="list-group-item disabled">Disabled item</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
